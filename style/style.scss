@@ -1,0 +1,56 @@
+@import 'reset';
+@import 'variables';
+
+body {
+	display: flex;
+	justify-content: center;
+
+	section {
+		border: $border-settings;
+        border-radius: 5px;
+		width: 500px;
+		flex-direction: column;
+		display: flex;
+		padding: 20px;
+        margin-top: 30px;
+
+		h1 {
+			font-family: $font;
+            margin-top: 10px;
+            font-size: 25px;
+		}
+
+		.operandContainer {
+			display: flex;
+
+			p {
+				font-family: $font;
+                margin-top: 10px;
+                font-size: 20px;
+			}
+
+            input {
+                margin-top: 5px;
+                border: $border-settings;
+                border-radius: 2px;
+                font-size: 20px;
+                padding: 5px;
+            }
+
+            .secondOperand {
+                margin-left: 10px;
+            }
+		}
+
+
+        button {
+            margin-top: 10px;
+            color: $buttons-color;
+            background-color: transparent;
+            border: $border-buttons;
+            border-radius: 5px;
+            font-size: 20px;
+            padding: 5px;
+        }
+	}
+}

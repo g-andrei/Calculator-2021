@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body section {
+  border: 1px solid #949494;
+  border-radius: 5px;
+  width: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+body section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+body section .operandContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body section .operandContainer p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+body section .operandContainer input {
+  margin-top: 5px;
+  border: 1px solid #949494;
+  border-radius: 2px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+body section .operandContainer .secondOperand {
+  margin-left: 10px;
+}
+
+body section button {
+  margin-top: 10px;
+  color: #367efd;
+  background-color: transparent;
+  border: 1px solid #367efd;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */
